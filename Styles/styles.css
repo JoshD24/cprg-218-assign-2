@@ -1,7 +1,12 @@
+/* Main */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    outline: none;
+    border: none;
+    font-weight: 400;
 }
 button {
     border: initial;
@@ -12,10 +17,10 @@ button {
 
 body {
     padding-top: 150px;
-    background-color: aliceblue;
+    background-color: #464D77;
     font-family: 'Roboto',sans-serif;
 }
-
+/* Cards */
 .card-section {
     max-width: 1150px;
     padding: 0 30px;
@@ -74,4 +79,43 @@ body {
     border-radius: 1000px;
     font: 12px;
 
+}
+
+/* Accordion */
+
+.accordion {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.accordion-item {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.accordion-title {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.accordion-title::after {
+    content: "+";
+    font-size: 40px;
+    margin-left: auto;
+}
+
+.active-header::after {
+    content: "-";
+}
+
+.accordion-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1000ms ease max-height;
 }
