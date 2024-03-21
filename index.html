@@ -5,60 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Styles/styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./Styles/global.css">
+    <link rel="stylesheet" type="text/css" href="./Styles/media.css">
+    <title>ReVibe</title>
     <script src="../Script/main.js" defer></script>
 </head>
 
 <body>
     <!-- hero banner -->
-    <section class="hero-container">
-        <div class="main-content">
-            <h1>My Portfolio</h1>
+    <div class="hero-container">
+        <div class="inner-container">
+            <h1>ReVibe</h1>
+            <h2>Where Vintage Meets Sustainability - Express your style Ethically</h2>
+            <a class="header-button" href="#">Explore</a>
         </div>
-    </section>
+    </div>
+
+    <!-- content -->
+
+    <section class="content-container">
+        <ul>
+          <li>
+              <div class="content-head"> 
+                <h1>Vintage & Sustainability</h1>
+                <img src="" alt="">
+              </div>
+              <div class="content-text">
+                <p></p>
+              </div>
+          </li>
+        </ul>
+      </section>
 
      <!-- Cards -->
     <section class="container-content">
         <ul>
             <li>
                 <div class="content-head">
-                    <h1>CONTENT SECTION</h1>
                 </div>
                 <div class="content-text">
-                    <p>Text</p>
                 </div>
             </li>
         </ul>
     </section>
     <section class="card-section">
-        <h2>CONTENT</h2>
         <div class="card">
             <img class="img"
-                src="https://images.unsplash.com/photo-1599753408328-b704f00319ad?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="Assets/catshirt.jpg"
                 alt="painting">
-            <h4 class="heading">Option 1</h4>
+            <h4 class="heading">Shirt name</h4>
             <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolorem.</p>
-            <button class="button">Read More</button>
+            <button class="button">Add to cart</button>
         </div>
         <div class="card">
             <img class="img"
-                src="https://images.unsplash.com/photo-1599753408328-b704f00319ad?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="Assets/jeans.jpg"
                 alt="painting">
-            <h4 class="heading">Option 2</h4>
+            <h4 class="heading">Jean name</h4>
             <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolorem.</p>
-            <button class="button">Read More</button>
+            <button class="button">Add to cart</button>
         </div>
         <div class="card">
             <img class="img"
-                src="https://images.unsplash.com/photo-1599753408328-b704f00319ad?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="Assets/sneakers.jpg"
                 alt="painting">
-            <h4 class="heading">Option 3</h4>
+            <h4 class="heading">Nike Shoes</h4>
             <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolorem.</p>
-            <button class="button">Read More</button>
+            <button class="button">Add to cart</button>
         </div>
     </section>
 
@@ -68,11 +81,13 @@
     <div class="accordion">
         <div class="accordion-item">
             <div class="accordion-item-header">
-                Topic 1
+                Why us?
             </div>
             <div class="accordion-item-body">
                 <div class="accordion-item-body-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, velit ipsum. Modi vitae asperiores labore explicabo doloribus unde in aut, praesentium magnam culpa soluta inventore, odio, nemo sed quasi nobis.
+                    Our goal is to offer more than just stylish vintage clothing - We are commited to promoting sustainable practices within fashion. This is done by curating a 
+                    selection of timeless pieces and promoting eco-friendly brands with transparent sourcing practices. We hope to provide customers with pieces express their style 
+                    while making a positive impact on the environment.
                 </div>
             </div>
         </div>
@@ -80,11 +95,12 @@
     <div class="accordion">
         <div class="accordion-item">
             <div class="accordion-item-header">
-                Topic 2
+                Can I pick-up in store?
             </div>
             <div class="accordion-item-body">
                 <div class="accordion-item-body-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, velit ipsum. Modi vitae asperiores labore explicabo doloribus unde in aut, praesentium magnam culpa soluta inventore, odio, nemo sed quasi nobis.
+                    Right now, we're vibing online! However, we're currently preparing to open a physical store soon and we are excited to see you all in-person. For now
+                    please bear with us and keep up with our newsletter for updates on our grand opening.
                 </div>
             </div>
         </div>
@@ -92,11 +108,12 @@
     <div class="accordion">
         <div class="accordion-item">
             <div class="accordion-item-header">
-                Topic 3
+                What is your return policy?
             </div>
             <div class="accordion-item-body">
                 <div class="accordion-item-body-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, velit ipsum. Modi vitae asperiores labore explicabo doloribus unde in aut, praesentium magnam culpa soluta inventore, odio, nemo sed quasi nobis.
+                    We want you to love your purchase from us, but if for any reason you're not completely satisfied, we've got you covered. Simply return the item within 30 days of purchase for a full refund or exchange. 
+                    Just make sure the item is unworn, unwashed, and in its original condition with tags attached. Don't hesitate to contact our support team for assistance.
                 </div>
             </div>
         </div>
@@ -104,18 +121,32 @@
     <div class="accordion">
         <div class="accordion-item">
             <div class="accordion-item-header">
-                Topic 4
+                What forms of payment do you accept?
             </div>
             <div class="accordion-item-body">
                 <div class="accordion-item-body-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, velit ipsum. Modi vitae asperiores labore explicabo doloribus unde in aut, praesentium magnam culpa soluta inventore, odio, nemo sed quasi nobis.
+                    We accept Credit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay. If you have any questions about payment methods or encounter any issues during checkout, please don't hesitate to contact our customer support team for assistance.              
                 </div>
             </div>
         </div>
     </div>
 
     <!-- footer -->
-    <div class="footer-container">
+     <footer>
+  <section class="footer-container">
+    <div class="links">
+      <h1>Links</h1>
+      <ul>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
+  </section>
+  <div class="copyright">
+  &copy ReVibe Clothing 2024
+  </div>
+  </footer> 
 
     </div>
 </body>
