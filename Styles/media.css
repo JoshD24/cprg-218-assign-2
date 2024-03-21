@@ -1,42 +1,11 @@
-/* Hero Banner */
-@media only screen and (max-width:920px){
-    .inner-container{
-        margin-top: 100%;
+ @media screen and (min-width: 1200px) {
+    .content-text {
+        flex-direction: row;
     }
-}
-
-@media only screen and (max-width: 540px) {
-    .inner-container{
-        margin-top: 0px;
+    .footer.container {
+        flex-direction: row;
     }
-    h1{
-        font-size: 5em;
-    }
-    h2{
-        font-size: 1.4em
-    }
-    .header-button{
-        margin-top: auto;
-    }
-}
-
-/* accordion */
-
-@media(max-width:767px) {
-    html{
-        font-size: 14px;
-    }
-}
-
-/* Desktop/larger laptops */
-@media screen and (min-width: 1200px) {
-    .content-container li {
-      flex-direction: row;
-    }
-    .content-head {
-      margin-right: 5rem;
-    }
-    .footer-container{
-      flex-direction: row;
+    .links {
+        margin-right: 20rem;
     }
 }

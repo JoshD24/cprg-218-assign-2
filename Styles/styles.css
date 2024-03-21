@@ -1,27 +1,28 @@
 /* Hero Banner */
 
-.hero-container{
+.hero-container {
     background-image: url(../Assets/store.jpg);
-    height: 25rem;
+    min-height: 25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.inner-container{
+.inner-container {
     text-align: center;
     width: 100%;
     color: white;
 }
 
-.inner-container h1{
-    font-size: 7em;
+.inner-container h1 {
+    font-size: clamp(5rem, 8vw, 8vw);
     margin-top: 0px;
+    padding-top: 50px;
     margin-bottom: 100px;
 }
 
-.inner-container h2{
+.inner-container h2 {
     margin-top: 25px;
     font-size: 1.7em;
     text-align: center;
@@ -33,7 +34,7 @@ a{
     font-size: 1.3em;
 }
 
-.header-button{
+.header-button {
     display: inline-block;
     width: 200px;
     font-weight: bold;
@@ -46,7 +47,7 @@ a{
     transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
 
-.header-button:hover,.header-button:active{
+.header-button:hover,.header-button:active {
     background-color: white;
     color: #000;
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
@@ -58,36 +59,34 @@ a{
     background-color: #FFC53A;
     min-height: 600px;
     display: flex;
-    flex-direction: row;
-  }
-
-  .content-container li{
     flex-direction: column;
-    margin: 5rem;
-    list-style: none;
-  }
-
-  .content-text{
-    margin-top: 10rem;
-    margin-right: 10rem;
-  }
+}
 
 
-  .video{
+.content-text {
+    margin-top: 3rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-text p {
+    padding: 1rem;
+}
+
+.video {
     width: 100%;
     max-width: 30rem;
     height: auto;
     margin: auto;
     display: flex;
-
-  }
+}
 
   
 /* Cards */
 
-.card-content li{
+.card-content {
     padding: 1rem;
-    list-style: none;
+    flex-direction: column;
 }
 
 .card-section {
@@ -155,7 +154,7 @@ a{
     font: 12px;
 }
 
-.button:hover,.button:active{
+.button:hover,.button:active {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
@@ -233,37 +232,37 @@ h1 {
 
 .footer-container {
     background-color: #FFC53A;
-    width: 100%;
     height: 50vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-  }
+    flex-direction: row;
+    
+}
 
-  .links{
-    margin: 5rem;
-    align-items: center;
-  }
+.links {
+    margin: 2rem;
+    
+}
   
-  .links a{
+.links a {
     text-decoration: underline;
     color: black;
+    flex-direction: row;
 
-  }
-  
-  .copyright{
+}
+
+.footer-container img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+
+.copyright {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     color: white;
     margin-bottom: 2rem;
   
-  }
-
-.links img{
-    width: 100%;
-    margin-top: 2rem;
-    max-width: 10rem;
-
 }
