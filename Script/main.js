@@ -20,3 +20,9 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         }
     });
 });
+
+const year = new Date(). getFullYear();
+const brand = "ReVibe"
+const result = `${year} ${brand}`
+
+document.getElementById("copyright").outerHTML = result
