@@ -21,6 +21,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
     });
 });
 
+// Dynamic Date
 const year = new Date(). getFullYear();
 const brand = "ReVibe"
 const result = `${year} ${brand}`
