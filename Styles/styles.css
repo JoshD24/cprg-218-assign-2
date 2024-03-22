@@ -57,7 +57,7 @@ a{
 /* content */
 
 .content-container {
-    background-color: #FFC53A;
+    background-color: #6D8EA0;
     min-height: 600px;
     display: flex;
     flex-direction: column;
@@ -68,11 +68,12 @@ a{
     margin-top: 3rem;
     align-items: center;
     flex-direction: column;
-    font-family: 'Roboto',sans-serif;
 }
 
 .content-text p {
     padding: 1rem;
+    font-family: 'Roboto',sans-serif;
+    color: #ffffff;
 }
 
 .video {
@@ -234,7 +235,7 @@ h1 {
 /* footer */
 
 .footer-container {
-    background-color: #FFC53A;
+    background-color: #6D8EA0;
     height: 50vh;
     display: flex;
     align-items: center;
@@ -249,7 +250,7 @@ h1 {
   
 .links a {
     text-decoration: underline;
-    color: black;
+    color: #ffffff;
     flex-direction: row;
     font-family: 'Roboto',sans-serif;
 
