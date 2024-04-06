@@ -1,4 +1,16 @@
+ /* desktop */
  @media screen and (min-width: 1200px) {
+    .content-container ul{
+        flex-direction: row;
+        margin: 5rem;
+    }
+    .content-container h1{
+        margin-top: 8rem;
+    }
+    .content-container p{
+        margin-left: 5rem;
+        margin-top: 0;
+    }
     .content-text {
         flex-direction: row;
     }
@@ -20,16 +32,14 @@
     }
 }
 
-/* @media screen and (min-width: 1200px) {
-    .video-container{
-        width: 80rem;
-        max-width: 100rem;
-        height: 40rem;
-    }
-} */
 
 /* Media query for mobile screens */
 @media screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card-section {
         padding: 0 15px;
         column-gap: 15px;
