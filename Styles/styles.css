@@ -369,13 +369,11 @@ h1 {
 
 /* footer */
 
-.footer-container {
+/* .footer-container {
     background-color: #6D8EA0;
-    height: 50vh;
     display: flex;
     align-items: center;
     flex-direction: row;
-    
 }
 
 .links {
@@ -408,4 +406,54 @@ h1 {
     color: white;
     margin-bottom: 2rem;
   
+} */
+
+.footer-container {
+    background-color: #6D8EA0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    position: relative;
+}
+
+.footer-container img {
+    width: 100%;
+    height: auto;
+    max-height: 50%;
+    object-fit: cover;
+}
+
+.links {
+    margin-top: 1rem; 
+    list-style-type: none;
+    padding: 0; 
+}
+.links h3 {
+    color: white;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.links li {
+    margin-bottom: 0.5rem; 
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: absolute;
+    color: white;
+    text-align: center;
 }

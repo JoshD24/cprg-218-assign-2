@@ -30,6 +30,15 @@
     .card h4, h5 {
         margin-bottom: 0.5rem;
     }
+    .footer-container a {
+        padding: 2rem;
+    }
+
+    .copyright {
+        position: static; 
+        margin-top: 1rem; 
+        margin-bottom: 1rem; 
+    }
 }
 
 
@@ -64,6 +73,53 @@
     }
 
     .description {
+        margin-bottom: 1rem;
+    }
+    /* .footer-container {
+        height: auto;
+    }
+
+    .footer-container img {
+        max-height: 30vh;
+        margin-top: 3rem;
+    }
+
+    .links {
+        text-align: center;
+    }
+
+    .copyright {
+        position: relative;
+        bottom: auto;
+        margin-top: 1rem;
+    } */
+
+    .footer-container {
+        height: auto;
+    }
+
+    .footer-container img {
+        max-height: 30vh;
+    }
+
+    .links {
+        text-align: center;
+        margin: 0; 
+        padding: 0; 
+    }
+    .links h3 {
+        font-size: 1.5rem;
+        
+    }
+    .links li {
+        display: block; 
+        margin: 10px 0; 
+    }
+
+    .copyright {
+        position: relative;
+        bottom: auto;
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
 }
