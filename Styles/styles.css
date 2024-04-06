@@ -57,7 +57,7 @@ a{
 /* content */
 
 .content-container {
-    background-color: #6D8EA0;
+    background-color: #274156;
     min-height: 600px;
     display: flex;
     flex-direction: column;
@@ -232,7 +232,7 @@ h1 {
 /* footer */
 
 .footer-container {
-    background-color: #6D8EA0;
+    background-color: #274156;
     height: 50vh;
     display: flex;
     align-items: center;
