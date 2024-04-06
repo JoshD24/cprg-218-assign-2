@@ -55,6 +55,8 @@ a{
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
+/* content */
+
 .content-container {
     display: flex;
     justify-content: center;
