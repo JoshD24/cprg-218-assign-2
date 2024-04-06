@@ -243,16 +243,18 @@ h1 {
 
 .links {
     margin: 2rem;
-    
+    list-style-type: none;
 }
   
 .links a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffffff;
     flex-direction: row;
     font-size: 1em;
-    
+}
 
+.links a:hover {
+    text-decoration: underline;
 }
 
 .footer-container img {
