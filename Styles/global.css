@@ -15,3 +15,10 @@ body {
     width: 100%;
     font-family: "Poppins", Arial, sans-serif;
 }
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
