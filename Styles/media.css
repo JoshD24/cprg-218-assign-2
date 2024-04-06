@@ -75,24 +75,6 @@
     .description {
         margin-bottom: 1rem;
     }
-    /* .footer-container {
-        height: auto;
-    }
-
-    .footer-container img {
-        max-height: 30vh;
-        margin-top: 3rem;
-    }
-
-    .links {
-        text-align: center;
-    }
-
-    .copyright {
-        position: relative;
-        bottom: auto;
-        margin-top: 1rem;
-    } */
 
     .footer-container {
         height: auto;
@@ -109,7 +91,7 @@
     }
     .links h3 {
         font-size: 1.5rem;
-        
+
     }
     .links li {
         display: block; 

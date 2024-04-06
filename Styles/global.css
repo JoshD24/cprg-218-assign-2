@@ -6,7 +6,6 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    /* font-weight: 400; */
 }
 
 body {
@@ -16,9 +15,3 @@ body {
     font-family: "Poppins", Arial, sans-serif;
 }
 
-
-/* .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
