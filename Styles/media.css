@@ -7,12 +7,16 @@
     }
     .description{
         font-size: 16px;
+        margin-bottom: 1rem;
     }
     .footer.container {
         flex-direction: row;
     }
     .links {
         margin-right: 20rem;
+    }
+    .card h4, h5 {
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -36,12 +40,20 @@
         padding: 15px;
     }
 
+    .card h4 {
+        margin-bottom: 0.5rem;
+    }
+    
     .img {
-        height: 80px;
-        width: 80px;
+        height: 200px;
+        width: 200px;
     }
 
     .button {
         padding: 8px 12px;
+    }
+
+    .description {
+        margin-bottom: 1rem;
     }
 }

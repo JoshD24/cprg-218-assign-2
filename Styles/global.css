@@ -6,7 +6,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 body {
@@ -17,8 +17,8 @@ body {
 }
 
 
-.container{
+/* .container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
