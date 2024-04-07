@@ -96,6 +96,9 @@ a{
 .card-content {
     padding: 1rem;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-section {
