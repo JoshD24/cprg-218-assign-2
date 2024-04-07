@@ -1,5 +1,7 @@
  /* desktop */
  @media screen and (min-width: 1200px) {
+
+    /* HERO/CONTENT */
     .content-container ul{
         flex-direction: row;
         margin: 5rem;
@@ -28,6 +30,8 @@
         margin-bottom: 1rem;
     }
 
+    /* FOOTER SECTION */
+
     .footer.container {
         flex-direction: row;
     }
@@ -53,7 +57,9 @@
 
 
 /* Media query for mobile screens */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+
+    /* CONTENT SECTION */
     .content-container {
         flex-direction: column;
         align-items: center;
@@ -63,6 +69,7 @@
         margin-top: 8rem;
     }
 
+    /* CARDS */
     .card-section {
         padding: 0 15px;
         column-gap: 15px;
@@ -89,6 +96,8 @@
         margin-bottom: 1rem;
     }
 
+    /* FOOTER SECTION */
+    
     .footer-container {
         height: auto;
     }
